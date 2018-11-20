@@ -17,7 +17,7 @@ public class SignUtils {
 	private static String getAlgorithms(boolean rsa2) {
 		return rsa2 ? SIGN_SHA256RSA_ALGORITHMS : SIGN_ALGORITHMS;
 	}
-	
+	xxx
 	public static String sign(String content, String privateKey, boolean rsa2) {
 		try {
 			PKCS8EncodedKeySpec priPKCS8 = new PKCS8EncodedKeySpec(
